@@ -1,0 +1,44 @@
+@media only screen and (max-width : 768px) {
+.sbzon {
+    right: 0px!important;
+    bottom: 37px!important;
+}
+ }
+
+ .btn_call_fixed {
+    background: #e11202;
+    color: #fff;
+    position: fixed;
+    bottom: 8px;
+    left: 5px;
+    font-size: 120%;
+    z-index: 9999;
+    padding: 2px 8px;
+    border-radius: 5px;
+ }
+
+ .btn_call_fixed i {
+    padding-right: 5px;
+}
+
+@media only screen and (max-device-width: 375px) {
+ .btn_call_fixed {
+    bottom: 35px;
+ }
+ .sbzon {
+    right: 0px!important;
+    bottom: 35px!important;
+}
+}
+@media only screen and (max-device-width: 320px) {
+ .btn_call_fixed {
+    bottom: 30px;
+ }
+ a.btn_call_fixed:focus, a.btn_call_fixed:hover {
+    color: #fff;
+}
+ .sbzon {
+    right: 0px!important;
+    bottom: 30px!important;
+}
+}
